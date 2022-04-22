@@ -1,0 +1,23 @@
+{
+  "name": "warmupmailserver",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "GPL-3.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "7.4.6",
+    "decompress": "4.2.1",
+    "decompress-targz": "4.1.1",
+    "got": "12.0.3",
+    "imapflow": "1.0.78",
+    "lodash": "4.17.21",
+    "node-schedule": "2.1.0",
+    "nodemailer": "6.7.3",
+    "pino": "7.6.1",
+    "pino-pretty": "7.3.0"
+  }
+}

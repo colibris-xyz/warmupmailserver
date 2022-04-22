@@ -1,0 +1,21 @@
+{
+  "logger": {"level": "info"},
+  "database": {
+    "downloadUrl": "https://storage.sbg.cloud.ovh.net/v1/AUTH_c9bae935b1b54cebbcf4b76edb8a6def/warmupmailserver/emails.db.tar.gz"
+  },
+  "mailserverSenderSchedule": "0 * * * *",
+  "mailboxProcessorSchedule": "7 * * * *",
+  "mailserverSender": {
+    "smtp": {},
+    "randomEmail": {
+      "envelopeFrom": "",
+      "headerFroms": []
+    },
+    "notification": {
+      "envelopeFrom": "",
+      "headerFrom": "",
+      "recipientAddress": ""
+    }
+  },
+  "targetMailboxes": []
+}
