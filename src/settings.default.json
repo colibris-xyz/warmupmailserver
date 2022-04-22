@@ -1,0 +1,19 @@
+{
+  "logger": {"level": "info"},
+  "databaseRelativePath": "./data",
+  "mailserverSenderSchedule": "0 * * * *",
+  "mailboxProcessorSchedule": "7 * * * *",
+  "mailserverSender": {
+    "smtp": {},
+    "randomEmail": {
+      "envelopeFrom": "",
+      "headerFroms": []
+    },
+    "notification": {
+      "envelopeFrom": "",
+      "headerFrom": "",
+      "recipientAddress": ""
+    }
+  },
+  "targetMailboxes": []
+}

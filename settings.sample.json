@@ -1,0 +1,48 @@
+{
+  "mailserverSender": {
+    "smtp": {
+      "host": "smtp.domain.tld",
+      "port": 587,
+      "secure": false,
+      "auth": {
+        "user": "warmup@domain.tld",
+        "pass": ""
+      }
+    },
+    "randomEmail": {
+      "envelopeFrom": "warmup@domain.tld",
+      "headerFroms": ["alice@domain.tld", "bob@domain.tld"]
+    },
+    "notification": {
+      "envelopeFrom": "warmup@domain.tld",
+      "headerFrom": "warmup@domain.tld",
+      "recipientAddress": "admin@domain.tld"
+    }
+  },
+  "targetMailboxes": [
+    {
+      "address": "target1@hotmail.com",
+      "imap": {
+        "host": "outlook.office365.com",
+        "port": 993,
+        "secure": true
+      },
+      "auth": {
+        "user": "target1@hotmail.com",
+        "pass": ""
+      }
+    },
+    {
+      "address": "target2@outlook.com",
+      "imap": {
+        "host": "outlook.office365.com",
+        "port": 993,
+        "secure": true
+      },
+      "auth": {
+        "user": "target2@outlook.com",
+        "pass": ""
+      }
+    }
+  ]
+}
