@@ -2,7 +2,7 @@ import settings from './settings.js'
 import logger from './logger.js'
 import { promisify } from 'node:util'
 import os from 'node:os'
-import { mkdtemp, rename, rm, stat } from 'node:fs/promises'
+import { mkdtemp, rm, stat } from 'node:fs/promises'
 import { createWriteStream } from 'node:fs'
 import stream from 'node:stream'
 import path from 'node:path'
@@ -50,13 +50,11 @@ async function downloadDatabase() {
     logger.debug(`Download progress: ${transferred}/${total} (${percentage}%)`)
   })
 
-  await pipeline(downloadStream, createWriteStream(tempDir + '/database.tar.gz.temp'))
+  await pipeline(downloadStream, createWriteStream(tempDir + '/database.tar.gz'))
 
   logger.info('Download complete! Please wait while we uncompress it...')
 
-  await decompress(tempDir + '/database.tar.gz.temp', tempDir, {plugins: [decompressTargz()]})
-
-  await rename(tempDir + '/' + DATABASE_FILENAME, 'data/' + DATABASE_FILENAME)
+  await decompress(tempDir + '/database.tar.gz', 'data/', {plugins: [decompressTargz()]})
 
   await rm(tempDir, {recursive: true})
 }
