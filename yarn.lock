@@ -579,10 +579,10 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-imapflow@1.0.95:
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.95.tgz#5a153c944bb6f036b696beae10fbdf96d86e9d1c"
-  integrity sha512-4XTS+RR20nLduNo9iX7xiTj/1K0BaEr+R1GaQXEqVTl7dSpeNT6UASoFg5GC1WjYeLTFRPPz8MBaiG3cHdbfxQ==
+imapflow@1.0.96:
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.96.tgz#ffeebd97275e66936187e8ad1036c3a16f0d165c"
+  integrity sha512-EbLXUE/MP+Gqg7tXOBIIGOBudLvvTPrxXLbeYwhRQKwHzBC5afcYCYxhoHUNUPkkywFBKjUPnAlytbBdOMVBdQ==
   dependencies:
     encoding-japanese "2.0.0"
     iconv-lite "0.6.3"
@@ -590,7 +590,7 @@ imapflow@1.0.95:
     libmime "5.1.0"
     libqp "1.1.0"
     mailsplit "5.3.2"
-    nodemailer "6.7.4"
+    nodemailer "6.7.5"
     pino "7.11.0"
     socks "2.6.2"
 
@@ -780,11 +780,6 @@ node-schedule@2.1.0:
     cron-parser "^3.5.0"
     long-timeout "0.1.1"
     sorted-array-functions "^1.3.0"
-
-nodemailer@6.7.4:
-  version "6.7.4"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.7.4.tgz#28771bda3dda8f2dad1912aca0f8727ce7f09d89"
-  integrity sha512-TBSS3qS8WG45ycUwEvEA/3UM1o3sLz9jUl4TPUKPz4ImWWM6UgRCb5pLO+HOouDKEj57yNLOrzQlO8+9IjWZoA==
 
 nodemailer@6.7.5:
   version "6.7.5"
