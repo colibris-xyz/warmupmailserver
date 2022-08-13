@@ -9,7 +9,7 @@
     "start": "node src/index.js"
   },
   "dependencies": {
-    "better-sqlite3": "7.6.0",
+    "better-sqlite3": "7.6.2",
     "decompress": "4.2.1",
     "decompress-targz": "4.1.1",
     "got": "12.3.1",
