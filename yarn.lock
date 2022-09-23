@@ -505,10 +505,10 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-imapflow@1.0.107:
-  version "1.0.107"
-  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.107.tgz#ae237bee8d68ae66179e83fa889e12481500c07d"
-  integrity sha512-ivXVNpklxEtCpy/OmJEmAGQHu8cb8vI58X0ZNI250OnE6YXN3AoD/r/uHCNBIXSSVV/89Ui+a07vlPcCJFvYtQ==
+imapflow@1.0.108:
+  version "1.0.108"
+  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.108.tgz#ac66e1626cb8faba5d573342fb258337e87cf31b"
+  integrity sha512-6cYebckcMPbd6sm7zOfTECpaPyGQzOmDrpr9yEYxsd+vWGKFRpj6Dkag4Of6wfsxSNB4EgffxcVkcTVwAtZRfQ==
   dependencies:
     encoding-japanese "2.0.0"
     iconv-lite "0.6.3"
@@ -517,7 +517,7 @@ imapflow@1.0.107:
     libqp "1.1.0"
     mailsplit "5.3.2"
     nodemailer "6.7.8"
-    pino "8.4.2"
+    pino "8.6.0"
     socks "2.7.0"
 
 inflight@^1.0.4:
@@ -817,23 +817,6 @@ pino-std-serializers@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/pino-std-serializers/-/pino-std-serializers-6.0.0.tgz#4c20928a1bafca122fdc2a7a4a171ca1c5f9c526"
   integrity sha512-mMMOwSKrmyl+Y12Ri2xhH1lbzQxwwpuru9VjyJpgFIH4asSj88F2csdMwN6+M5g1Ll4rmsYghHLQJw81tgZ7LQ==
-
-pino@8.4.2:
-  version "8.4.2"
-  resolved "https://registry.yarnpkg.com/pino/-/pino-8.4.2.tgz#5de76e81b36e173d74244e0af4543e7ae241dbfd"
-  integrity sha512-PlXDeGhJZfAuVay+wtlS02s5j8uisQveZExYdAm9MwwxUQSz9R7Q78XtjM2tTa4sa5KJmygimZjZxXXuHgV6ew==
-  dependencies:
-    atomic-sleep "^1.0.0"
-    fast-redact "^3.1.1"
-    on-exit-leak-free "^2.1.0"
-    pino-abstract-transport v1.0.0
-    pino-std-serializers "^6.0.0"
-    process-warning "^2.0.0"
-    quick-format-unescaped "^4.0.3"
-    real-require "^0.2.0"
-    safe-stable-stringify "^2.3.1"
-    sonic-boom "^3.1.0"
-    thread-stream "^2.0.0"
 
 pino@8.6.0:
   version "8.6.0"
