@@ -511,10 +511,10 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-imapflow@1.0.109:
-  version "1.0.109"
-  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.109.tgz#8f7d2191dfcd7090b083f845300d3722283963b2"
-  integrity sha512-Pkv6hqL1SQZLoInije0My0Jo3+keIqdVpSeBzSxzVyPO0hE8HuZXhterG1qdaT0YjVE+e822iJPy+mq+SkNoyw==
+imapflow@1.0.110:
+  version "1.0.110"
+  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.110.tgz#578711d7e1bc63cb0364c9d30233c99ad6dfb512"
+  integrity sha512-Hw1NWIKI2YwPTk/nl85kv8E/nq3R5L2z6GUtvMP9S39wnvyWmYzXovEEeTZGAE6xY64lnwl8joSiGpYwIVITfw==
   dependencies:
     encoding-japanese "2.0.0"
     iconv-lite "0.6.3"
@@ -524,7 +524,7 @@ imapflow@1.0.109:
     mailsplit "5.3.2"
     nodemailer "6.8.0"
     pino "8.6.1"
-    socks "2.7.0"
+    socks "2.7.1"
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -1012,10 +1012,10 @@ smart-buffer@^4.2.0:
   resolved "https://registry.yarnpkg.com/smart-buffer/-/smart-buffer-4.2.0.tgz#6e1d71fa4f18c05f7d0ff216dd16a481d0e8d9ae"
   integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
 
-socks@2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/socks/-/socks-2.7.0.tgz#f9225acdb841e874dca25f870e9130990f3913d0"
-  integrity sha512-scnOe9y4VuiNUULJN72GrM26BNOjVsfPXI+j+98PkyEfsIXroa5ofyjT+FzGvn/xHs73U2JtoBYAVx9Hl4quSA==
+socks@2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/socks/-/socks-2.7.1.tgz#d8e651247178fde79c0663043e07240196857d55"
+  integrity sha512-7maUZy1N7uo6+WVEX6psASxtNlKaNVMlGQKkG/63nEDdLOWNbiUMoLK7X4uYoLhQstau72mLgfEWcXcwsaHbYQ==
   dependencies:
     ip "^2.0.0"
     smart-buffer "^4.2.0"
