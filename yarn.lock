@@ -511,16 +511,16 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-imapflow@1.0.113:
-  version "1.0.113"
-  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.113.tgz#306323ceb6fdf125fc25f3b8dfebf27a4dcaf58f"
-  integrity sha512-McuYdoWVmFFtahRmq7XqoguSCDmZLSsr8yYnjIVCcu+zYG1NwNHOcm9EkTZ3J8YAc+wpkg9wPq51rUfHbjU3SQ==
+imapflow@1.0.114:
+  version "1.0.114"
+  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.114.tgz#a27bdf5c6746c3ccc5c0a043f64fe5b5bc8221dc"
+  integrity sha512-/TECom/+RPcahg3clRjBbJ+xtVkKHS+DqHMpS2nBUuvJFxouTzubIsryGLIwyNzYBV4Rcy+tEPu+SRNBzXtaJA==
   dependencies:
     encoding-japanese "2.0.0"
     iconv-lite "0.6.3"
     libbase64 "1.2.1"
     libmime "5.1.0"
-    libqp "1.1.0"
+    libqp "2.0.1"
     mailsplit "5.3.2"
     nodemailer "6.8.0"
     pino "8.7.0"
@@ -620,6 +620,11 @@ libqp@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/libqp/-/libqp-1.1.0.tgz#f5e6e06ad74b794fb5b5b66988bf728ef1dedbe8"
   integrity sha1-9ebgatdLeU+1tbZpiL9yjvHe2+g=
+
+libqp@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/libqp/-/libqp-2.0.1.tgz#b8fed76cc1ea6c9ceff8888169e4e0de70cd5cf2"
+  integrity sha512-Ka0eC5LkF3IPNQHJmYBWljJsw0UvM6j+QdKRbWyCdTmYwvIDE6a7bCm0UkTAL/K+3KXK5qXT/ClcInU01OpdLg==
 
 lodash@4.17.21:
   version "4.17.21"
@@ -823,23 +828,6 @@ pino-std-serializers@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/pino-std-serializers/-/pino-std-serializers-6.0.0.tgz#4c20928a1bafca122fdc2a7a4a171ca1c5f9c526"
   integrity sha512-mMMOwSKrmyl+Y12Ri2xhH1lbzQxwwpuru9VjyJpgFIH4asSj88F2csdMwN6+M5g1Ll4rmsYghHLQJw81tgZ7LQ==
-
-pino@8.6.1:
-  version "8.6.1"
-  resolved "https://registry.yarnpkg.com/pino/-/pino-8.6.1.tgz#3fc43acc79bcd3e871670347854f7359e2612f10"
-  integrity sha512-fi+V2K98eMZjQ/uEHHSiMALNrz7HaFdKNYuyA3ZUrbH0f1e8sPFDmeRGzg7ZH2q4QDxGnJPOswmqlEaTAZeDPA==
-  dependencies:
-    atomic-sleep "^1.0.0"
-    fast-redact "^3.1.1"
-    on-exit-leak-free "^2.1.0"
-    pino-abstract-transport v1.0.0
-    pino-std-serializers "^6.0.0"
-    process-warning "^2.0.0"
-    quick-format-unescaped "^4.0.3"
-    real-require "^0.2.0"
-    safe-stable-stringify "^2.3.1"
-    sonic-boom "^3.1.0"
-    thread-stream "^2.0.0"
 
 pino@8.7.0:
   version "8.7.0"
