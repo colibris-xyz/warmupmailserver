@@ -511,10 +511,10 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-imapflow@1.0.116:
-  version "1.0.116"
-  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.116.tgz#c8c57d479cb0917297c47946e6f7f34039f56342"
-  integrity sha512-w6ozX7bXNpfn+EQQcTMNUM2m/G/c2tJ+y4tIKbuZZmWtbKjjZ1gfStwWUI1foq4JVtPaQ0L1aSE5pHnUF+2OGw==
+imapflow@1.0.117:
+  version "1.0.117"
+  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.117.tgz#581139c621a1249f8954bd66197ae9cced387102"
+  integrity sha512-DPSOLyTvLwQxz7SRYR9f80fV1DFC54RH2t8UI7JlX9k8/zW8/mhqGj2DATitQSLpv84tr9EK0G2PnWfvvmtXmw==
   dependencies:
     encoding-japanese "2.0.0"
     iconv-lite "0.6.3"
