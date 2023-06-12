@@ -461,10 +461,10 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-imapflow@1.0.128:
-  version "1.0.128"
-  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.128.tgz#8fe148a71e399d6084f615d2bd745cb4d21c9522"
-  integrity sha512-Yjc/KEVfZEXPoy7SD5triTIpzo4KL6WljSBTMyoyllGNFJwpI7lzvWc123w27O5sRIbyjihVEqA8RPA590kENg==
+imapflow@1.0.129:
+  version "1.0.129"
+  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.129.tgz#b298f153c64721c182d4f50e8a0a534c10553677"
+  integrity sha512-YaxagPvQV0F32iblLITNY3gMEQ+wMzLa4wvtMt3YCkfHC5NdAnqnhldt/FVcofpNGz7vXP3JCLjLbzgPai8yDA==
   dependencies:
     encoding-japanese "2.0.0"
     iconv-lite "0.6.3"
@@ -472,8 +472,8 @@ imapflow@1.0.128:
     libmime "5.2.1"
     libqp "2.0.1"
     mailsplit "5.4.0"
-    nodemailer "6.9.1"
-    pino "8.11.0"
+    nodemailer "6.9.3"
+    pino "8.14.1"
     socks "2.7.1"
 
 inflight@^1.0.4:
@@ -664,11 +664,6 @@ node-schedule@2.1.1:
     long-timeout "0.1.1"
     sorted-array-functions "^1.3.0"
 
-nodemailer@6.9.1:
-  version "6.9.1"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.1.tgz#8249d928a43ed85fec17b13d2870c8f758a126ed"
-  integrity sha512-qHw7dOiU5UKNnQpXktdgQ1d3OFgRAekuvbJLcdG5dnEo/GtcTHRYM7+UfJARdOFU9WUQO8OiIamgWPmiSFHYAA==
-
 nodemailer@6.9.3:
   version "6.9.3"
   resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.3.tgz#e4425b85f05d83c43c5cd81bf84ab968f8ef5cbe"
@@ -776,10 +771,10 @@ pino-std-serializers@^6.0.0:
   resolved "https://registry.yarnpkg.com/pino-std-serializers/-/pino-std-serializers-6.0.0.tgz#4c20928a1bafca122fdc2a7a4a171ca1c5f9c526"
   integrity sha512-mMMOwSKrmyl+Y12Ri2xhH1lbzQxwwpuru9VjyJpgFIH4asSj88F2csdMwN6+M5g1Ll4rmsYghHLQJw81tgZ7LQ==
 
-pino@8.11.0:
-  version "8.11.0"
-  resolved "https://registry.yarnpkg.com/pino/-/pino-8.11.0.tgz#2a91f454106b13e708a66c74ebc1c2ab7ab38498"
-  integrity sha512-Z2eKSvlrl2rH8p5eveNUnTdd4AjJk8tAsLkHYZQKGHP4WTh2Gi1cOSOs3eWPqaj+niS3gj4UkoreoaWgF3ZWYg==
+pino@8.14.1:
+  version "8.14.1"
+  resolved "https://registry.yarnpkg.com/pino/-/pino-8.14.1.tgz#bb38dcda8b500dd90c1193b6c9171eb777a47ac8"
+  integrity sha512-8LYNv7BKWXSfS+k6oEc6occy5La+q2sPwU3q2ljTX5AZk7v+5kND2o5W794FyRaqha6DJajmkNRsWtPpFyMUdw==
   dependencies:
     atomic-sleep "^1.0.0"
     fast-redact "^3.1.1"
