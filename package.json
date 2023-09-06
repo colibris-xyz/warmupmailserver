@@ -16,7 +16,7 @@
     "imapflow": "1.0.143",
     "lodash": "4.17.21",
     "node-schedule": "2.1.1",
-    "nodemailer": "6.9.4",
+    "nodemailer": "6.9.5",
     "pino": "8.14.2",
     "pino-pretty": "10.0.1"
   }
