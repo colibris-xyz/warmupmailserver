@@ -461,10 +461,10 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-imapflow@1.0.143:
-  version "1.0.143"
-  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.143.tgz#192cb2d9db2b36fafe49784db98a5bcd37cb2ab4"
-  integrity sha512-1J7ySUM7wGyh0OguhZc0EdM+4yywX/tB4tjAskvOwz4Kd1S8+cxcIBBuslq6hpO1XLDOnjUns0ADrjwQIuTBTg==
+imapflow@1.0.144:
+  version "1.0.144"
+  resolved "https://registry.yarnpkg.com/imapflow/-/imapflow-1.0.144.tgz#77eb838ca011aa1bf91f0e5ae56fa81dd702c29a"
+  integrity sha512-pJENOyIn3oaJwtMbIty4cYcxguNR4oWz+izTo267jcLOpBXrjwnQG2jU7+yEDESxaPazVXlcbr/5ZzBRglT51Q==
   dependencies:
     encoding-japanese "2.0.0"
     iconv-lite "0.6.3"
@@ -472,8 +472,8 @@ imapflow@1.0.143:
     libmime "5.2.1"
     libqp "2.0.1"
     mailsplit "5.4.0"
-    nodemailer "6.9.4"
-    pino "8.15.0"
+    nodemailer "6.9.5"
+    pino "8.15.1"
     socks "2.7.1"
 
 inflight@^1.0.4:
@@ -664,11 +664,6 @@ node-schedule@2.1.1:
     long-timeout "0.1.1"
     sorted-array-functions "^1.3.0"
 
-nodemailer@6.9.4:
-  version "6.9.4"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.4.tgz#93bd4a60eb0be6fa088a0483340551ebabfd2abf"
-  integrity sha512-CXjQvrQZV4+6X5wP6ZIgdehJamI63MFoYFGGPtHudWym9qaEHDNdPzaj5bfMCvxG1vhAileSWW90q7nL0N36mA==
-
 nodemailer@6.9.5:
   version "6.9.5"
   resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.5.tgz#eaeae949c62ec84ef1e9128df89fc146a1017aca"
@@ -751,6 +746,14 @@ pino-abstract-transport@^1.0.0, pino-abstract-transport@v1.0.0:
     readable-stream "^4.0.0"
     split2 "^4.0.0"
 
+pino-abstract-transport@v1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/pino-abstract-transport/-/pino-abstract-transport-1.1.0.tgz#083d98f966262164504afb989bccd05f665937a8"
+  integrity sha512-lsleG3/2a/JIWUtf9Q5gUNErBqwIu1tUKTT3dUzaf5DySw9ra1wcqKjJjLX1VTY64Wk1eEOYsVGSaGfCK85ekA==
+  dependencies:
+    readable-stream "^4.0.0"
+    split2 "^4.0.0"
+
 pino-pretty@10.0.1:
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-10.0.1.tgz#54a11182068949ff3069f1f7857f297a14926e58"
@@ -793,15 +796,15 @@ pino@8.14.2:
     sonic-boom "^3.1.0"
     thread-stream "^2.0.0"
 
-pino@8.15.0:
-  version "8.15.0"
-  resolved "https://registry.yarnpkg.com/pino/-/pino-8.15.0.tgz#67c61d5e397bf297e5a0433976a7f7b8aa6f876b"
-  integrity sha512-olUADJByk4twxccmAxb1RiGKOSvddHugCV3wkqjyv+3Sooa2KLrmXrKEWOKi0XPCLasRR5jBXxioE1jxUa4KzQ==
+pino@8.15.1:
+  version "8.15.1"
+  resolved "https://registry.yarnpkg.com/pino/-/pino-8.15.1.tgz#04b815ff7aa4e46b1bbab88d8010aaa2b17eaba4"
+  integrity sha512-Cp4QzUQrvWCRJaQ8Lzv0mJzXVk4z2jlq8JNKMGaixC2Pz5L4l2p95TkuRvYbrEbe85NQsDKrAd4zalf7Ml6WiA==
   dependencies:
     atomic-sleep "^1.0.0"
     fast-redact "^3.1.1"
     on-exit-leak-free "^2.1.0"
-    pino-abstract-transport v1.0.0
+    pino-abstract-transport v1.1.0
     pino-std-serializers "^6.0.0"
     process-warning "^2.0.0"
     quick-format-unescaped "^4.0.3"
